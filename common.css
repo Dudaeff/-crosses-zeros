@@ -1,0 +1,28 @@
+body {
+    box-sizing: border-box;
+    background-color: greenyellow;
+}
+
+.playing-area {
+    display: flex;
+    flex-wrap: wrap;
+
+    width: 450px;
+    height: 450px;
+
+    margin: 0 auto;
+    border: 2px solid black;
+}
+
+.target-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 148px;
+    height: 148px;
+
+    font-size: 84px;
+    border: 1px solid black;
+    color: orangered;
+}
